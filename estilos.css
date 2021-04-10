@@ -1,0 +1,28 @@
+ * { 
+     list-style:none;
+    }
+ li{
+      line-height:180%;
+    }
+ li a{
+     color:#222; text-decoration:none;
+    }
+ li a:before{ 
+     content:"\025b8"; color:#ddd; margin-right:4px;
+    }
+ input[name="list"] {
+	position: absolute;
+	left: -1000em;
+	}
+ label:before{ 
+     content:"\025b8"; margin-right:4px;
+    }
+ input:checked ~ label:before{
+      content:"\025be";
+    }
+ .interior{
+     display: none;
+    }
+ input:checked ~ ul{
+     display:block;
+    }
